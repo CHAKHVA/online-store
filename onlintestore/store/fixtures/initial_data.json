@@ -1,0 +1,295 @@
+[
+    {
+        "model": "store.category",
+        "pk": 1,
+        "fields": {
+            "name": "Electronics",
+            "description": "Electronic gadgets and devices"
+        }
+    },
+    {
+        "model": "store.category",
+        "pk": 2,
+        "fields": {
+            "name": "Clothing",
+            "description": "Fashion wear for all genders"
+        }
+    },
+    {
+        "model": "store.category",
+        "pk": 3,
+        "fields": {
+            "name": "Books",
+            "description": "Various genres of books"
+        }
+    },
+    {
+        "model": "store.category",
+        "pk": 4,
+        "fields": {
+            "name": "Furniture",
+            "description": "Home and office furniture"
+        }
+    },
+    {
+        "model": "store.category",
+        "pk": 5,
+        "fields": {
+            "name": "Toys",
+            "description": "Children's toys and games"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 1,
+        "fields": {
+            "name": "Laptop",
+            "description": "High-performance laptop with SSD",
+            "price": "1200.00",
+            "quantity": 50,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "name": "Smartphone",
+            "description": "Latest smartphone model",
+            "price": "800.00",
+            "quantity": 100,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 3,
+        "fields": {
+            "name": "Tablet",
+            "description": "10-inch tablet with high-resolution display",
+            "price": "400.00",
+            "quantity": 30,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 4,
+        "fields": {
+            "name": "Headphones",
+            "description": "Wireless noise-canceling headphones",
+            "price": "150.00",
+            "quantity": 80,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 5,
+        "fields": {
+            "name": "Smartwatch",
+            "description": "Fitness tracker with heart rate monitor",
+            "price": "200.00",
+            "quantity": 60,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 6,
+        "fields": {
+            "name": "Desktop PC",
+            "description": "Powerful desktop computer with dedicated graphics",
+            "price": "1500.00",
+            "quantity": 20,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 7,
+        "fields": {
+            "name": "Digital Camera",
+            "description": "Mirrorless camera with 4K video recording",
+            "price": "1000.00",
+            "quantity": 40,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 8,
+        "fields": {
+            "name": "Gaming Console",
+            "description": "Next-gen gaming console with VR capabilities",
+            "price": "600.00",
+            "quantity": 70,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 9,
+        "fields": {
+            "name": "Wireless Router",
+            "description": "High-speed wireless router for home networks",
+            "price": "80.00",
+            "quantity": 90,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 10,
+        "fields": {
+            "name": "External Hard Drive",
+            "description": "1TB portable external hard drive",
+            "price": "70.00",
+            "quantity": 120,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 11,
+        "fields": {
+            "name": "Wireless Earbuds",
+            "description": "True wireless earbuds with long battery life",
+            "price": "100.00",
+            "quantity": 50,
+            "category": 1
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 12,
+        "fields": {
+            "name": "T-shirt",
+            "description": "Cotton T-shirt",
+            "price": "20.00",
+            "quantity": 100,
+            "category": 2
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 13,
+        "fields": {
+            "name": "Jeans",
+            "description": "Denim jeans",
+            "price": "40.00",
+            "quantity": 50,
+            "category": 2
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 14,
+        "fields": {
+            "name": "Dress",
+            "description": "Casual dress",
+            "price": "35.00",
+            "quantity": 30,
+            "category": 2
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 15,
+        "fields": {
+            "name": "Novel",
+            "description": "Best-selling fiction novel",
+            "price": "15.00",
+            "quantity": 50,
+            "category": 3
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 16,
+        "fields": {
+            "name": "Textbook",
+            "description": "Educational textbook",
+            "price": "50.00",
+            "quantity": 20,
+            "category": 3
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 17,
+        "fields": {
+            "name": "Cookbook",
+            "description": "Collection of recipes",
+            "price": "25.00",
+            "quantity": 40,
+            "category": 3
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 18,
+        "fields": {
+            "name": "Desk",
+            "description": "Wooden desk",
+            "price": "150.00",
+            "quantity": 10,
+            "category": 4
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 19,
+        "fields": {
+            "name": "Sofa",
+            "description": "3-seater fabric sofa",
+            "price": "300.00",
+            "quantity": 5,
+            "category": 4
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 20,
+        "fields": {
+            "name": "Bookshelf",
+            "description": "Wooden bookshelf",
+            "price": "100.00",
+            "quantity": 15,
+            "category": 4
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 21,
+        "fields": {
+            "name": "Action Figure",
+            "description": "Superhero action figure",
+            "price": "10.00",
+            "quantity": 50,
+            "category": 5
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 22,
+        "fields": {
+            "name": "Puzzle",
+            "description": "1000-piece jigsaw puzzle",
+            "price": "20.00",
+            "quantity": 30,
+            "category": 5
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 23,
+        "fields": {
+            "name": "Remote Control Car",
+            "description": "Toy car with remote control",
+            "price": "25.00",
+            "quantity": 20,
+            "category": 5
+        }
+    }
+]
