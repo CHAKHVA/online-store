@@ -6,74 +6,75 @@ This is a Django Rest API managing Online Store.
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/CHAKHVA/online-store.git
-```
+    ```bash
+    git clone https://github.com/CHAKHVA/online-store.git
+    ```
 
 2. Navigate into the project directory
 
-```bash
-cd online-store
-```
+    ```bash
+    cd online-store
+    ```
 
-2. Set up a virtual environment (optional):
+3. Set up a virtual environment (optional):
 
-```bash
-# Windows
-python -m venv .venv
-# macOS/Linux
-python3 -m venv .venv
+    ```bash
+    # Windows
+    python -m venv .venv
+    # macOS/Linux
+    python3 -m venv .venv
 
-# Activate it on Windows
-.venv\Scripts\activate
-# Or on MacOS/Linux
-source .venv/bin/activate
-```
+    # Activate it on Windows
+    .venv\Scripts\activate
+    # Or on MacOS/Linux
+    source .venv/bin/activate
+    ```
 
-3. Install the dependencies:
+4. Install the dependencies:
 
-```bash
-# Windows
-pip install -r requirements.txt
-# MacOS/Linux
-pip3 install -r requirements.txt
-```
+    ```bash
+    # Windows
+    pip install -r requirements.txt
+
+    # MacOS/Linux
+    pip3 install -r requirements.txt
+    ```
 
 ## Configuration
 
--   Change database configuration in `onlinestore/onlinestore/settings.py`
+- Create `.env` file and configure it like `.env.sample`
 
 ## Usage
 
 1. Make migrations
 
-```bash
-python manage.py makemigrations
-```
+    ```bash
+    python manage.py makemigrations
+    ```
 
 2. Migrate models
 
-```bash
-python manage.py migrate
-```
+    ```bash
+    python manage.py migrate
+    ```
 
 3. Create Superuser
 
-```bash
-python manage.py createsuperuser
-```
+    ```bash
+    python manage.py createsuperuser
+    ```
 
 4. Seed initial data
 
-```bash
-python manage.py loaddata initial_data.json
-```
+    ```bash
+    python manage.py loaddata initial_data.json
+    ```
 
 5. Run Application
 
-```bash
-python manage.py runserver
-```
+    ```bash
+    python manage.py runserver
+    ```
 
 ## API Endpoints
 
